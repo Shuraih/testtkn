@@ -330,13 +330,11 @@ button:focus {
 .spinner {
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  background-color: #262626;
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 12px rgba(6, 11, 47, 0.06);
   box-shadow: 0 3px 12px rgba(6, 11, 47, 0.06);
   margin: 100px auto;
-  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-  animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotateplane {
@@ -4124,6 +4122,7 @@ button:focus {
   position: relative;
   display: block;
   margin-bottom: 93px;
+  text-align: center;
 }
 
 .team-block .image-box {
@@ -5060,7 +5059,7 @@ button:focus {
 }
 
 .testimonial-item-wrap-2 .testimonial-content .testimonial-author {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   /*border-left: 2px solid rgba(127, 136, 151, 0.2);*/
 }
 

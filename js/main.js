@@ -81,6 +81,7 @@
 		dots: true,
 		smartSpeed: 500,
 		autoplay: false,
+		autoHeight:true,
 		navText: ["<i class='la la-angle-left'></i>", "<i class='la la-angle-right'></i>"]
 	});
 

@@ -698,9 +698,6 @@
 
             function onWindowResize() {
 
-                var CANVAS_WIDTH = $('#peach3d').parent().width();
-                var CANVAS_HEIGHT = $('#peach3d').parent().width();
-
                 camera.aspect = CANVAS_WIDTH / CANVAS_HEIGHT;
                 camera.updateProjectionMatrix();
 
